@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/955f40af86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/log.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li> 
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I am <span>Sajeeb</span> <br>From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/IMG-20260106-WA0004 (1).jpg">
+                </div>
+
+                <div class="col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I’m Sajeeb, a curious and driven Software Engineering student who loves turning ideas into working software. Whether it’s building applications, solving algorithmic problems, or exploring AI concepts, I’m always excited to learn something new.
+                       <br>
+                       I believe in continuous improvement, writing clean code, and understanding the “why” behind every technology I use. My long-term goal is to become a versatile developer capable of building intelligent, scalable systems that make a real-world impact.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages:</span><br>Java, Python, C++, JavaScript</li>
+                            <li><span>Frontend:</span><br>HTML, CSS, React</li>
+                            <li><span>Backend & DB:</span><br>Node.js, Firebase, MySQL</li>
+                            <li><span>Tools & Concepts:</span><br>Git, OOP, Algorithms & Data Structures, ML Basics</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>20saal</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Degree / Program: </span><br>Bachelor of Science in Software Engineering (2023- )</li>
+                            <li><span>Institution:</span><br>SUST – Shahjalal University of Science and Technology</li>
+                            <li><span>HSC</span><br>Rangpur Govt. College (2020-2022)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet officiis ipsum molestiae, distinctio explicabo perspiciatis omnis laboriosam quam ab nisi nihil asperiores error veniam modi velit veritatis neque cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet officiis ipsum molestiae, distinctio explicabo perspiciatis omnis laboriosam quam ab nisi nihil asperiores error veniam modi velit veritatis neque cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet officiis ipsum molestiae, distinctio explicabo perspiciatis omnis laboriosam quam ab nisi nihil asperiores error veniam modi velit veritatis neque cum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png"> 
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque porro culpa dolorem, repellat velit saepe deserunt voluptate. Soluta inventore magnam tempore corrupti cum illum labore vel incidunt laboriosam. Possimus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque porro culpa dolorem, repellat velit saepe deserunt voluptate. Soluta inventore magnam tempore corrupti cum illum labore vel incidunt laboriosam. Possimus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque porro culpa dolorem, repellat velit saepe deserunt voluptate. Soluta inventore magnam tempore corrupti cum illum labore vel incidunt laboriosam. Possimus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>saiduzzamansajeeb71@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01521703257</p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                    <a href="https://saiduzzaman-08.github.io/CV/" target="_blank" class="btn btn2">
+                      View CV
+                    </a>
+
+                     
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>      
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Made with<i class="fa-regular fa-heart"></i>by Sajeeb </p>
+        </div>
+    </div>
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0px";
+    }
+
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+    
+</body>
+</html>
